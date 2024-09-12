@@ -1,5 +1,5 @@
 
-function AreaRectangulo(longitud, ancho) {
+/*function AreaRectangulo(longitud, ancho) {
     return longitud * ancho;
 }
 function Areaepentagono(longitud) {

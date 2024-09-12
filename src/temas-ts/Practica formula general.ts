@@ -16,13 +16,13 @@ class FormGeneral{
     imprimir() {
         
             const { x1, x2 } = this.calcular();
-            console.log(Los resultados son: ${x1} y ${x2});
+            console.log(`Los resultados son: ${x1} y ${x2}`);
         
     }
 }
 
-const ecuacion=new Ecuacion(1,6,8);
-ecuacion.imprimir();
+const formgeneral=new FormGeneral(1,7,5);
+formgeneral.imprimir();
 
 /*class Area{
     protected num1:number;

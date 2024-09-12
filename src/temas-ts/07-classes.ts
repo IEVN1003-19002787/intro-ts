@@ -11,7 +11,7 @@ class Persona{
 }
 
 let persona:Persona;
-persona= new Persona("Antonio",24);
+persona= new Persona("Carlos Prado",24);
 persona.imprimir();
 
 
