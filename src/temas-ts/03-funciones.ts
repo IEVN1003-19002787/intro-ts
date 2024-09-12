@@ -7,9 +7,11 @@ function sumar() {
     console.log('Funciones: ',suma)
 }
 sumar();
-function resta(a:number, b:number, c:number) {
-    a=b-c;
-}
+function resta(a:number, b:number):number {
+    return a-b;
+
+}console.log(resta(10,5));
+
 interface Mascotas{
     nombre: string,
     edad: number,
@@ -21,7 +23,7 @@ let perro:Mascotas={
     edad: 5,
     raza : 'Pitbull',
     mostrarEdad(){
-        console.log('La edad es ${this.edad}')
+        console.log(`La edad es ${this.edad}`)
     }
 }
 console.log(perro.edad);
